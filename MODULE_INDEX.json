@@ -1,0 +1,20 @@
+[
+  {
+    "name": "example-android-lib",
+    "repo": "https://github.com/example/example-android-lib",
+    "description": "Example Android library that provides image filtering.",
+    "tags": ["android","kotlin","image-processing"],
+    "capabilities": ["image-filtering","hardware-acceleration"],
+    "supported_systems": {
+      "android": {"min_api": 21, "architectures": ["armeabi-v7a","arm64-v8a"]},
+      "macos": {"min_version": "12"},
+      "windows": {"min_version": "10"},
+      "linux": {"distros": ["ubuntu-20.04+"]}
+    },
+    "prereqs": {
+      "android": ["JDK 11+", "Android SDK platform 31", "Gradle wrapper"],
+      "docker": []
+    },
+    "last_updated": "2026-07-30"
+  }
+]
